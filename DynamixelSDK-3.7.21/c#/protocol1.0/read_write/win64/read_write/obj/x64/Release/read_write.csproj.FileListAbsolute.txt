@@ -1,0 +1,7 @@
+C:\Users\ucbqkmo\Downloads\DynamixelSDK-3.7.21\c#\protocol1.0\read_write\win64\read_write\bin\x64\Release\read_write.exe.config
+C:\Users\ucbqkmo\Downloads\DynamixelSDK-3.7.21\c#\protocol1.0\read_write\win64\read_write\bin\x64\Release\read_write.exe
+C:\Users\ucbqkmo\Downloads\DynamixelSDK-3.7.21\c#\protocol1.0\read_write\win64\read_write\bin\x64\Release\read_write.pdb
+C:\Users\ucbqkmo\Downloads\DynamixelSDK-3.7.21\c#\protocol1.0\read_write\win64\read_write\obj\x64\Release\read_write.csprojAssemblyReference.cache
+C:\Users\ucbqkmo\Downloads\DynamixelSDK-3.7.21\c#\protocol1.0\read_write\win64\read_write\obj\x64\Release\read_write.csproj.CoreCompileInputs.cache
+C:\Users\ucbqkmo\Downloads\DynamixelSDK-3.7.21\c#\protocol1.0\read_write\win64\read_write\obj\x64\Release\read_write.exe
+C:\Users\ucbqkmo\Downloads\DynamixelSDK-3.7.21\c#\protocol1.0\read_write\win64\read_write\obj\x64\Release\read_write.pdb
