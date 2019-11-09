@@ -4,6 +4,8 @@ import math
 
 from pythonosc import dispatcher
 from pythonosc import osc_server
+def position_func(addr,msg):
+    print (addr, msg)
 
 def print_volume_handler(unused_addr, args, volume):
   print("[{0}] ~ {1}".format(args[0], volume))
@@ -22,9 +24,7 @@ if __name__ == "__main__":
   args = parser.parse_args()
 
   dispatcher = dispatcher.Dispatcher()
-  dispatcher.map("/filter", print)
-  dispatcher.map("/volume", print_volume_handler, "Volume")
-  dispatcher.map("/logvolume", print_compute_handler, "Log volume", math.log)
+  dispatcher.map("/position", position_func)
 
   server = osc_server.ThreadingOSCUDPServer((args.ip, args.port), dispatcher)
   print("Serving on {}".format(server.server_address))
