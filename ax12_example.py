@@ -1,4 +1,14 @@
 from dxl_ax_12 import*
+from pythonosc import udp_client
+
+out_ip, out_port = "127.0.0.1",9998
+client = udp_client.UDPClient(out_ip,out_port,False)
+#client = SimpleUDPClient(out_ip,out_port)
+
+msg = input()
+client.send_message("/position", msg)
+
+
 
 portOpen()
 # Disable or Enable Dynamixel Torque
