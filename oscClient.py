@@ -1,6 +1,6 @@
 from  pythonosc import udp_client
 
-out_ip, out_port = "127.0.0.1",9998
+out_ip, out_port = "192.168.43.247",9998
 client = udp_client.SimpleUDPClient(out_ip,out_port)
 
 def send_osc(pattern,value):
