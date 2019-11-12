@@ -60,6 +60,7 @@ def setBaud():
 
 def portClose(_unused_pattern,_unused_msg):
     portHandler.closePort()
+    print("port closed")
 
 def split_msg(msg):
     id_and_value_str = msg.split("#")
@@ -73,6 +74,7 @@ def torqueEnable(_unused_pattern,id_value):
         print("%s" % packetHandler.getTxRxResult(dxl_comm_result))
     elif dxl_error != 0:
         print("%s" % packetHandler.getRxPacketError(dxl_error))
+    print("[ID:%03d]  Torque Status:%03d" % (int(id), value))
 
 
 def positionRead(_unused_pattern,_id):
@@ -93,6 +95,8 @@ def servoSpeed(_unused_pattern,id_value):
         print("%s" % packetHandler.getTxRxResult(dxl_comm_result))
     elif dxl_error != 0:
         print("%s" % packetHandler.getRxPacketError(dxl_error))
+    print("[ID:%03d]  Servo Speed:%03d" % (int(id), value))
+
 
 def wheelMode(_unused_pattern,id_boolean):
     id, boolean = split_msg(id_boolean)
@@ -114,6 +118,8 @@ def wheelMode(_unused_pattern,id_boolean):
         print("%s" % packetHandler.getTxRxResult(dxl_comm_result))
     elif dxl_error != 0:
         print("%s" % packetHandler.getRxPacketError(dxl_error))
+    print("[ID:%03d]  Wheel Mode:%03d" % (int(id), int(boolean)))
+
 
 def servoGoalPos(_unused_pattern,id_value):
     id, value = split_msg(id_value)
@@ -122,6 +128,8 @@ def servoGoalPos(_unused_pattern,id_value):
         print("%s" % packetHandler.getTxRxResult(dxl_comm_result))
     elif dxl_error != 0:
         print("%s" % packetHandler.getRxPacketError(dxl_error))
+    print("[ID:%03d]  Servo Goal:%03d" % (int(id), int(value)))
+
 
 
 def loadRead(_unused_pattern,_id):
@@ -143,7 +151,7 @@ def tempRead(_unused_pattern,_id):
     elif dxl_error != 0:
         print("%s" % packetHandler.getRxPacketError(dxl_error))
     oscClient.send_osc("/temp_feedback", dxl_present_temp)
-    print("[ID:%03d]  PresLoad:%03d" % (id, dxl_present_temp))
+    print("[ID:%03d]  PresTemp:%03d" % (id, dxl_present_temp))
     return dxl_present_temp
 
 #if __name__ == "__main__":
