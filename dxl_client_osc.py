@@ -24,7 +24,7 @@ DXL_ID_2                    = 2                             # Dynamixel ID : 2
 
 DXL_IDs                     = (DXL_ID_1,DXL_ID_2)
 BAUDRATE                    = 1000000                       # Dynamixel default baudrate : 57600
-DEVICENAME                  = '/dev/tty.usbserial-FT2FWN2D'                        # Check which port is being used on your controller
+DEVICENAME                  = '/dev/ttyUSB0'                # Check which port is being used on your controller
                                                             # ex) Windows: "COM1"   Linux: "/dev/ttyUSB0" Mac: "/dev/tty.usbserial-*"
 
 TORQUE_ENABLE               = 1                             # Value for enabling the torque

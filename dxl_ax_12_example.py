@@ -6,7 +6,7 @@ the aim of this code is to program the servo in readable way(clean page for cont
 every dxl function has to be activated by Dispatcher exept port
 '''
 
-dxl_ax_12.portOpen()
+dxl_client_osc.portOpen()
 #read position
 oscServer.dispatch_callback("/readPosition",dxl_ax_12.positionRead)
 #read load
