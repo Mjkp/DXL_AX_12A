@@ -146,7 +146,7 @@ def tempRead(_unused_pattern,_id):
     print("[ID:%03d]  PresLoad:%03d" % (id, dxl_present_temp))
     return dxl_present_temp
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # portOpen()
     # wheelMode(DXL_IDs[0],WHEEL_ENABLE)
     # servoSpeed(DXL_IDs[0],0)
