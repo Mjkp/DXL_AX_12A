@@ -74,7 +74,7 @@ def torqueEnable(_unused_pattern,id_value):
         print("%s" % packetHandler.getTxRxResult(dxl_comm_result))
     elif dxl_error != 0:
         print("%s" % packetHandler.getRxPacketError(dxl_error))
-    print("[ID:%03d]  Torque Status:%03d" % (int(id), value))
+    print("[ID:%03d]  Torque Status:%03d" % (int(id), int(value)))
 
 
 def positionRead(_unused_pattern,_id):
