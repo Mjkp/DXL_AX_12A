@@ -95,7 +95,7 @@ def servoSpeed(_unused_pattern,id_value):
         print("%s" % packetHandler.getTxRxResult(dxl_comm_result))
     elif dxl_error != 0:
         print("%s" % packetHandler.getRxPacketError(dxl_error))
-    print("[ID:%03d]  Servo Speed:%03d" % (int(id), value))
+    print("[ID:%03d]  Servo Speed:%03d" % (int(id), int(value)))
 
 
 def wheelMode(_unused_pattern,id_boolean):
