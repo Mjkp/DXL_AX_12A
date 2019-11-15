@@ -1,5 +1,6 @@
 # DXL_AX_12A
-dynamixel sdk and example code for Ax_12A
+control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
+
 
 ## Prerequisite
 - dynamixel sdk
