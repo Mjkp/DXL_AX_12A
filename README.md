@@ -17,3 +17,6 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 - 12V DC Adaptor
 - Micro USB cable
 - Micro USB (female) cable (if using pi zero)
+
+## Setup
+
