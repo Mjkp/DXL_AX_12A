@@ -18,5 +18,9 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 - Micro USB cable
 - Micro USB (female) cable (if using pi zero)
 
+## Unity
+![](unity_servoControl_interface.png)
+
+
 ## Setup
 
