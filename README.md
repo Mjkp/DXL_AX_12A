@@ -38,8 +38,11 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 - check the port name from device manager(in Windows)
 - if not visible in the device manager download ftdi driver
 - In Linux 
-'''bash
-ls /dev/tty*
-'''
+```bash
+ls /dev/tty* # generally its /dev/ttyUSB0
+# or
+lsusb # to check how many driver is plugged
+```
+
 
 
