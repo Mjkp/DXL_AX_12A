@@ -21,6 +21,7 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 
 ## Unity
 ![](unity_servoControl_interface.png)
+- type address pattern and servoid + "#" + value (eg. "writeGoalPos" and "1#720")
 
 
 ## Additional Resources
