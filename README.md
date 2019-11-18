@@ -32,7 +32,7 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 - Google drive link for wpa_config and linux(desbian)-also available from rasbian website
  https://drive.google.com/open?id=1oLfMgb-lJGOaOLKiIynS6E6ps8A851XD
 
-## In U2D2 is not recognized 
+## In case U2D2 is not recognized 
 - download Dynamixel Wizard to double check the id and baudrate of servo
 - check the port name from device manager(in Windows)
 - if not visible in the device manager download ftdi driver
