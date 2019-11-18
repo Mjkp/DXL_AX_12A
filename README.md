@@ -1,8 +1,10 @@
 # DXL_AX_12A
+
 control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 
 
 ## Prerequisite
+
 - python 3
 - dynamixel sdk
 - python-osc (python 3)
@@ -11,6 +13,7 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 
 
 ## Material
+
 - Raspberry pi 
 - Robotis Dynamixel AX_12A
 - U2D2
@@ -28,4 +31,15 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 
 - Google drive link for wpa_config and linux(desbian)-also available from rasbian website
  https://drive.google.com/open?id=1oLfMgb-lJGOaOLKiIynS6E6ps8A851XD
+
+## In case not working
+
+- download Dynamixel Wizard to double check the id and baudrate of servo
+- check the port name from device manager(in Windows)
+- if not visible in the device manager download ftdi driver
+- In Linux 
+'''bash
+ls /dev/tty*
+'''
+
 
