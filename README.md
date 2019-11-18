@@ -7,6 +7,7 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 - dynamixel sdk
 - python-osc (python 3)
 - unity3d
+- pip3
 
 
 ## Material
@@ -22,5 +23,8 @@ control pipeline from Unity to pi, controlling dynamixel servos via udp protocol
 ![](unity_servoControl_interface.png)
 
 
-## Setup
+## Additional Resources
+
+- Google drive link for wpa_config and linux(desbian)-also available from rasbian website
+ https://drive.google.com/open?id=1oLfMgb-lJGOaOLKiIynS6E6ps8A851XD
 
