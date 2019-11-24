@@ -110,7 +110,7 @@ lsusb
 ```bash
 ls /dev/tty*
 ```
-## Using Github on pi
+## Using Git on Pi
 
 - clone a repo
 ```bash
