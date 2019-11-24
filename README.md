@@ -39,7 +39,7 @@
  http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/
 - You may go through free python tutorials from Code Academy https://www.codecademy.com
 
-## Linux Terminal Basic Commands
+## Linux Terminal Cheat Sheet
 - run commands with administrative privileges(run as admin in Windows)
 ```bash
 sudo
@@ -51,6 +51,11 @@ apt-get
 sudo apt-get install
 sudo apt-get upgrade
 ```
+
+- ge help
+```bash
+--help
+```
 - List all files in the current folder
 ```bash
 ls
@@ -60,6 +65,7 @@ ls
 cd /  # to root directory
 cd -  # to previous directory
 cd .. # to one up directory
+cd ~  # to home directory
 ```
 - print working directory
 ```bash
@@ -81,6 +87,7 @@ rmdir # removes an empty directory
 rm -r # removes a directory recursively (!!!try not to use this line!!!)
 rm exampleCode.py #delete a single file in current folder
 rm -rf home/worshop/ # delete all files in this folder
+rmd # permanantly delete file
 ```
 - make directory 
 ```bash
@@ -105,6 +112,10 @@ ls /dev/tty*
 ```
 ## Using Github on pi
 
+- clone a repo
+```bash
+git clone <url>.git
+```
 - install git 
 ```bash
 sudo apt-get install git
@@ -114,6 +125,39 @@ sudo apt-get install git
 git config --global user.name "user_name"
 
 git config --global user.email "email_id"
+```
+- initialize git
+```bash
+git init
+```
+- git on existing repo (origin)
+```bash
+git remote add origin <repourl>.git
+```
+
+- add files
+```bash
+git add .
+```
+
+- commit changes
+```bash
+git commit -m "short text about changes"
+```
+- push changes
+```bash
+git push -u origin master
+
+# if more than one branch
+git push -all
+```
+- pull changes
+```bash
+git fetch
+
+git stash
+
+git merge origin/master
 ```
 
 
