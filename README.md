@@ -68,12 +68,12 @@ pwd
 - copy 
 ```bash
 cp
-cp exampleCode.py /home/workshop would copy the file “exampleCode.py” to the directory “/home/workshop”)
+cp exampleCode.py /home/workshop # would copy the file “exampleCode.py” to the directory “/home/workshop”)
 ```
 - move 
 ```bash
 mv
-#(eg. mv exampleCode.py /home/workshop would move the file “exampleCode.py” to the directory “/home/workshop”)
+mv exampleCode.py /home/workshop # would move the file “exampleCode.py” to the directory “/home/workshop”
 ```
 - remove 
 ```bash
@@ -89,7 +89,7 @@ mkdir
 - edit script on pi
 ```bash
 nano filename
-#(eg. nano exampleCode.py)
+nano exampleCode.py
 ```
 - to logout from pi
 ```bash
