@@ -68,7 +68,7 @@ pwd
 - copy 
 ```bash
 cp
-#(eg. cp exampleCode.py /home/workshop would copy the file “exampleCode.py” to the directory “/home/workshop”)
+cp exampleCode.py /home/workshop would copy the file “exampleCode.py” to the directory “/home/workshop”)
 ```
 - move 
 ```bash
@@ -78,8 +78,9 @@ mv
 - remove 
 ```bash
 rmdir # removes an empty directory 
-rm -r # removes a directory recursively
-#(eg. mv exampleCode.py /home/workshop would move the file “exampleCode.py” to the directory “/home/workshop”)
+rm -r # removes a directory recursively (!!!try not to use this line!!!)
+rm exampleCode.py #delete a single file in current folder
+rm -rf home/worshop/ # delete all files in this folder
 ```
 - make directory 
 ```bash
