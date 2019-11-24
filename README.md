@@ -103,6 +103,19 @@ lsusb
 ```bash
 ls /dev/tty*
 ```
+## Using Github on pi
+
+- install git 
+```bash
+sudo apt-get install git
+```
+- configuring github
+```bash
+git config --global user.name "user_name"
+
+git config --global user.email "email_id"
+```
+
 
 ## In case U2D2 is not recognized 
 - download Dynamixel Wizard to double check the id and baudrate of servo
