@@ -38,7 +38,15 @@
 - Please check Robotis e-manual for servo data sheet
  http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/
 - You may go through free python tutorials from Code Academy https://www.codecademy.com
+- Optitracking tutorial https://www.youtube.com/watch?v=m-OKX8Gaqo0&list=PLdKrdVGpQ5OZSlQDCyYFT-iOo1Qmfzl7Z
 - You may found the documentation of optitrack unity plugin at https://v110.wiki.optitrack.com/index.php?title=OptiTrack_Unity_Plugin
+# Raspberry pi - additional resources for sensors
+- accelerometer
+https://maker.pro/raspberry-pi/tutorial/how-to-connect-tcs34725-rgb-color-sensor-with-raspberry-pi-zero-w
+-Pi analog to digital MCP and ADC chips
+https://pimylifeup.com/raspberry-pi-adc/
+https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/ads1015-slash-ads1115
+
 
 ## Linux Terminal Cheat Sheet
 - run commands with administrative privileges(run as admin in Windows)
