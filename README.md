@@ -1,4 +1,4 @@
-# DXL_AX_12A
+# B-Pro, AD, RC3, Mechatronics Workshop
 
 
 - This Repo has been created for Skill's Module for Bartlett AD, UCL. It contains Dynamixel SDK from https://github.com/ROBOTIS-GIT/DynamixelSDK. 
