@@ -43,7 +43,7 @@
 # Raspberry pi - additional resources for sensors
 - accelerometer
 https://maker.pro/raspberry-pi/tutorial/how-to-connect-tcs34725-rgb-color-sensor-with-raspberry-pi-zero-w
--Pi analog to digital MCP and ADC chips
+- Pi analog to digital MCP and ADC chips
 https://pimylifeup.com/raspberry-pi-adc/
 https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/ads1015-slash-ads1115
 
