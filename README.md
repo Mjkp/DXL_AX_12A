@@ -168,7 +168,8 @@ git stash
 
 git merge origin/master
 ```
-
+## FTP
+- you may also use FTP or SFTP with Cyberduck
 
 ## In case U2D2 is not recognized 
 - download Dynamixel Wizard to double check the id and baudrate of servo
