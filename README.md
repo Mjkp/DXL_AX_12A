@@ -38,6 +38,7 @@
 - Please check Robotis e-manual for servo data sheet
  http://emanual.robotis.com/docs/en/dxl/ax/ax-12a/
 - You may go through free python tutorials from Code Academy https://www.codecademy.com
+- You may found the documentation of optitrack unity plugin at https://v110.wiki.optitrack.com/index.php?title=OptiTrack_Unity_Plugin
 
 ## Linux Terminal Cheat Sheet
 - run commands with administrative privileges(run as admin in Windows)
